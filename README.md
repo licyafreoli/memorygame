@@ -1,3 +1,32 @@
+# Jogo da Memória
+
+## Descrição
+
+O Jogo da Memória é um jogo interativo de memória baseado em cartas. O objetivo é encontrar pares de cartas idênticas em um tabuleiro embaralhado. Este projeto foi desenvolvido utilizando Vue.js para a construção da interface e Eleven (11ty) para o gerenciamento do conteúdo do blog associado ao projeto.
+
+## Funcionalidades
+
+- **Níveis de Dificuldade**: Três níveis de dificuldade (Fácil, Médio e Difícil) com diferentes conjuntos de imagens.
+- **Responsividade**: O layout é adaptativo e funciona bem em diferentes tamanhos de tela.
+- **Temporizador**: Um temporizador para acompanhar o tempo gasto no jogo.
+- **Pontuação**: Sistema de pontuação para avaliar o desempenho do jogador.
+
+## Tecnologias Utilizadas
+
+- **Vue.js**: Framework JavaScript para a construção da interface.
+- **Eleven (11ty)**: Gerador de site estático para o blog associado.
+- **HTML5** e **CSS3**: Tecnologias fundamentais para a estrutura e estilo do jogo.
+- **Unsplash API**: Fonte para as imagens utilizadas no jogo.
+
+## Instruções para Desenvolvimento
+
+1. **Clone o Repositório**
+
+   ```bash
+   git clone https://github.com/usuario/repo.git
+   cd repo
+
+
 # This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
 
 ---
@@ -103,5 +132,4 @@ Then, from within your project folder:
 
 ```bash
 npm run build
-surge public my-project.surge.sh
-```
+
